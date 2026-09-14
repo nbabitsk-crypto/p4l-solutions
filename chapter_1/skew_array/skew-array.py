@@ -39,19 +39,3 @@ def skew_array(genome: str) -> list[int]:
             skew_array[i] = skew_array[i-1] + skew[symbol]
 
     return skew_array
-
-def skew(symbol: str) -> int:
-    """
-    Returns 1 if symbol is 'G'/'g', -1 if 'C'/'c', else 0.
-
-    Parameters:
-    - symbol (str): Single-character string.
-
-    Returns:
-    - int: Skew contribution for this symbol.
-
-    Raises:
-    - ValueError: If `symbol` is not length 1.
-    """
-    # TODO: Implement this function
-    pass
